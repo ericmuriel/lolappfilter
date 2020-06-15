@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		@font-face {
+		font-family: miFuente;
+		src: url("Trebuchet MS.ttf");
+
+	}
+
+
+	body{
+		margin: auto;
+		background-color: black;
+	}
+	h3{
+		font-family: miFuente;
+		color: white;
+		text-decoration: none;
+	}
+	a{
+		text-decoration: none;
+
+	}
+	h3:hover{
+		opacity: 0.7;
+	}
+
+	.menu{
+		text-align: center;
+		padding-top:250px;
+	}
+	.container{
+		background-image: url(FondoPrincipal.png);
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1024px;
+		height:1024px;
+
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="menu">
+			<div id="entrar" class="entrar"><a href="Entrar.html"><h3>ENTRAR</h3></a></div>
+			<br>
+			<div id="options" lass="opciones"><h3>OPCIONES</h3></div>
+			<br>
+			<div id="out" class="salir"><h3>SALIR</h3></div>
+		</div>
+	</div>
+
+	<script>
+
+		let clickJugar=_=>{
+			let jugar=document.querySelector('#play');
+
+		}
+		document.querySelector('#play').addEventListener('click',clickJugar);
+
+	</script>
+
+
+</body>
+</html>
