@@ -2,9 +2,11 @@
   "name": "appfilterlol",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
     "node": "12.13.1"
   },
   "devDependencies": {},
